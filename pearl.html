@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AL Rashid AG Landscapes</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="images/logo-mobile.png">
+    <link rel="icon" type="image/x-icon" href="images/Avatar-03.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
 
 <body>
 
-    <div class="overlay overlay-slide-left" id="overlay">
+   <div class="overlay overlay-slide-left" id="overlay">
         <!-- MENU ITEMS -->
         <nav class="rag-navbar">
             <ul>
@@ -44,14 +44,24 @@
                     <a href="about.html" class="center">About</a>
                 </li>
                 <li id="nav-3" class="slide-out-3 center">
-                    <a href="services.html" class="center">Services</a>
+                    <a href="certificates.html" class="center">Certificates & Recognitions</a>
                 </li>
                 <li id="nav-4" class="slide-out-4 center">
-                    <a href="our-work.html" class="center">Our Works</a>
+                    <a href="construction.html" class="center">Construction</a>
                 </li>
                 <li id="nav-5" class="slide-out-5 center">
+                    <a href="Maintenance.html" class="center">Maintenance</a>
+                </li>
+                <li id="nav-6" class="slide-out-6 center">
+                    <a href="sports.html" class="center">Sports Field</a>
+                </li>
+                <li id="nav-7" class="slide-out-7 center">
+                    <a href="our-work.html" class="center">Our Projects</a>
+                </li>
+                <li id="nav-8" class="slide-out-8 center">
                     <a href="contact.html" class="center">Contact</a>
                 </li>
+                
             </ul>
         </nav>
     </div>
@@ -106,7 +116,7 @@
                                 <span>Follow us</span>
                                 <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
                                 <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                <a href="https://www.instagram.com/al_rashid_ag_landscapes/"><i class="fab fa-instagram google-bg"></i></a>
                             </div>
                         </div>
                     </div>
@@ -118,7 +128,9 @@
                             <ul>
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="about.html">About us</a></li>
-                                <li><a href="services.html">Services</a></li>
+                                <li><a href="construction.html">Construction</a></li>
+                                <li><a href="maintenance.html">Maintenance</a></li>
+                                <li><a href="sports.html">Sport Fields</a></li>
                                 
                                 <li><a href="our-work.html">Our Work</a></li>
                                 
@@ -156,7 +168,12 @@
         const nav3 = document.querySelector("#nav-3");
         const nav4 = document.querySelector("#nav-4");
         const nav5 = document.querySelector("#nav-5");
-        const navItems = [nav1, nav2, nav3, nav4, nav5];
+        const nav6 = document.querySelector("#nav-6");
+        const nav7 = document.querySelector("#nav-7");
+        const nav8 = document.querySelector("#nav-8");
+        
+        
+        const navItems = [nav1, nav2, nav3, nav4, nav5, nav6, nav7, nav8];
 
         // Control Navigation Animation
         function navAnimation(val1, val2) {
